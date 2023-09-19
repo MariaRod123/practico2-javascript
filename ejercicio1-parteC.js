@@ -1,3 +1,5 @@
+/*Dado el array ["B", "B", 1, 1, 1, 2, 2, 0] agrupar los valores que tengan una cantidad mayor a dos y agrupar con valores nulos y/o 0.  Salida esperada [1, 0] */
+
 const array_inicial = ["B", "B", 1, 1, 1, 2, 2, 0];
 const numeros_agrupados = [];
 
