@@ -16,9 +16,9 @@
   a) Input: [1,2,”B”,”C”,”B”] Output: w: [1,2], z: [“B”,”B”,”C”] ; Compactar z en [“B”,”C”]
   
   b) Input: [1,true,false,true,”C”] Output: w: [1], z: [true,false,true], x: [null]
-     i) Todas las letras encontradas en el input agregar una entrada con “null” en el output x
+  c) Todas las letras encontradas en el input agregar una entrada con “null” en el output x
   
-  c) Input: v: [1,true,”B”,”C”] w: [“string”,”number”] output: z: [1,”B”,”C”]
+  d) Input: v: [1,true,”B”,”C”] w: [“string”,”number”] output: z: [1,”B”,”C”]
      i) Generar el output clasificando con los tipos encontrados en w.
 
 - Desarrollar un algoritmo de búsqueda normal para los siguientes arrays
