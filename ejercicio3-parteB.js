@@ -14,7 +14,14 @@ function buscarElementosConUno(array_entrada) {
   }
 
 const array_inicial = [1, "2", "0",  "1b", "1"];
-const array_salida=buscarElementosConUno(array_inicial)
-console.log("Elementos que tienen 1 : ", array_salida)
+const array_salida=buscarElementosConUno(array_inicial);
+
+if (array_salida.length !== 0) {
+  console.log("Elementos que tienen 1 : ", array_salida);
+  
+} else {
+  console.log("No se encontraron elementos que cumplan con la condición.");
+}
+
 
 
