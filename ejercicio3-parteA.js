@@ -15,5 +15,12 @@ function buscarElementosConA(array_entrada) {
   
   const array_inicial = ["Aba", "AAb", "b", "B"];
   const salida = buscarElementosConA(array_inicial);
-  console.log("Elementos que comienzan con A:", salida);  
+
+if (salida.length !== 0) {
+    console.log("Elementos que comienzan con A:", salida);          
+  } else {
+    console.log("No se encontraron elementos que cumplan con la condición.");
+      
+  }
+  
   
