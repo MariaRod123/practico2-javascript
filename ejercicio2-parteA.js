@@ -3,8 +3,6 @@ const array_entrada = [1, 2, "B", "C", "B"];
 function clasificarElementos(array_inicial) {
   const numeros = [];
   const letras = [];
-  //const nulos = [];
- 
 
   for (const elemento of array_inicial) {
     if (typeof elemento === 'number') {
