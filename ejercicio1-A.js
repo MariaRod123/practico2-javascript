@@ -3,7 +3,6 @@
 const array_inicial = [1, 2, 3, "A", "A", "B", 2, 2];
 
 function agruparElementosRepetidos(array_entrada) {
-  // Creo un array vacío para almacenar los elementos que aparecen con mayor frecuencia
   const elementos_repetidos = [];
 
   for (const elemento of array_entrada) {
@@ -19,7 +18,7 @@ function agruparElementosRepetidos(array_entrada) {
       elementos_repetidos.push(elemento);     
     }
   }
-  // Devuelve el array que contiene los elementos que se repiten
+ 
   return elementos_repetidos;
 }
 
